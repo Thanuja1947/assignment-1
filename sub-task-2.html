@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub-task-3</title>
+    <style>
+
+            .vertical-nav{
+                background-color: lightblue;
+                list-style-type: none;
+                width:200px;
+                height: 200px;
+                padding-left: 0px;
+                font-size:large;
+            }
+            .vertical-nav li{
+                padding:8px;
+            }
+            .vertical-nav li:first-child{
+                background-color: orange;
+                color: white;
+                font-weight: bold;
+            }
+
+            .vertical-nav a{
+                text-decoration: none;
+                color: blue;
+            }
+    .horizontal-nav {
+      margin-top: 20px;
+    }
+
+    .horizontal-nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    .horizontal-nav li {
+      background-color: #ccc;
+      padding: 10px 20px;
+      margin-right: 1px;
+    }
+
+    .horizontal-nav li:first-child {
+      font-weight: bold;
+      background-color: #888;
+      color: white;
+    }
+
+    .horizontal-nav a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <ul class = "vertical-nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">Java</a></li>
+        <li><a href="">CSS</a></li>
+        <li><a href="">HTML</a></li>
+        <li><a href="">Bootstrap</a></li>
+    </ul>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontal-nav">
+        <ul>
+          <li>Home</li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+        </ul>
+      </div>
+</body>
+</html>
